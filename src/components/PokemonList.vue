@@ -5,7 +5,7 @@ import PokemonCard from "../components/PokemonCard.vue";
 
 const pokemons = ref<{ name: string; url: string }[]>([]);
 const searchQuery = ref(""); // Barre de recherche
-const limit = -1; // Nombre de Pokémon par page
+const limit = 100; // Nombre de Pokémon par page
 const offset = ref(0); // Pour la pagination
 const totalPokemons = ref(0);
 
