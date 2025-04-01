@@ -4,7 +4,7 @@ import PokemonList from "./components/PokemonList.vue";
 
 <template>
   <div>
-    <h1>Pokédex</h1>
+    <h1 style="color: white;">Pokédex</h1>
     <PokemonList />
   </div>
 </template>
